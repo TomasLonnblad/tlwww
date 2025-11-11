@@ -22,10 +22,11 @@ const HatModel = React.memo(function HatModel(props) {
       ref={modelRef}
 
 
-  <group {...props} dispose={null}>
-      <group rotation={[-Math.PI / 2, 0, 0]}>
-      
 
+      scale={[510.8, 11.8, 810.8]}
+      rotation={[0.4, -11, 0]}
+      position={[110, 110, 110]}
+    >
 
 
   <mesh
